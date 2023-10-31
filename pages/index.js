@@ -8,11 +8,12 @@ const posts = [
     { title: "React With Tailwind", excerpt: "Learn React with Tailwind" },
 ];
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
-        <main className={`container mx-auto px-10 mb-8 ${inter.className}`}>
+        <main className={`container mx-auto px-10 mb-8`}>
+            {/* <main className={`container mx-auto px-10 mb-8 ${inter.className}`}> */}
             <Head>
                 <title>Create Next App</title>
             </Head>
